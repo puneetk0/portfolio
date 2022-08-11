@@ -26,7 +26,7 @@ const Header = () => {
            <a href='/'>Home</a>
           <a href='/about'>About</a>  
             <a href='/portfolio'>Portfolio</a>
-            <a href='#'>Youtube</a>
+            <a href='https://www.youtube.com/c/LearnGroww/'>Youtube</a>
         </div>
         <button className='toggle' onClick={() => setClick(!click)}>
             {click ? <i onClick={onDoubleClick} className='fa fa-times' > </i> : <i onClick={onClickEvent} className='fa fa-bars' ></i>}
