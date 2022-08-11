@@ -29,7 +29,7 @@
   margin: 2.8rem auto auto;
 }
 
-.about-heading h1 {
+.about-heading h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 45px;
   font-weight: 700;
@@ -84,7 +84,7 @@
     width: 28.64rem;
   }
 
-  .about-heading h1 {
+  .about-heading h2 {
     font-size: 35px;
   }
 
@@ -104,7 +104,7 @@
     width: 25.9rem;
   }
 
-  .about-heading h1 {
+  .about-heading h2 {
     font-size: 33px;
   }
 
@@ -154,7 +154,7 @@
     width: 30rem;
   }
 
-  .about-heading h1 {
+  .about-heading h2 {
     font-size: 32px;
   }
 
@@ -169,7 +169,7 @@
     width: 25.2rem;
   }
 
-  .about-heading h1 {
+  .about-heading h2 {
     font-size: 24px;
   }
 
@@ -217,7 +217,7 @@
     width: 21rem;
   }
 
-  .about-heading h1 {
+  .about-heading h2 {
     font-size: 22px;
   }
 
