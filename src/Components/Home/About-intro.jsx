@@ -15,7 +15,7 @@ const AboutIntro = () => {
       <div className="about-boxes">
         <div className="about-box">
           <div className="about-heading">
-              <h1>UI/UX Design</h1>
+              <h2>UI/UX Design</h2>
           </div>
           <div className="about-paragraph">
               <p>I love to design the websites with a minimalistic and modern look. I have designed a lot of websites including portfolios, e-commerce and startup websites. I usually use Figma software which is compltely free. I try my best to design the UI of a website as best as i can!</p>
@@ -24,7 +24,7 @@ const AboutIntro = () => {
 
         <div className="about-box">
           <div className="about-heading">
-              <h1>Web Development</h1>
+              <h2>Web Development</h2>
           </div>
           <div className="about-paragraph">
               <p>I love coding websites as much as i love designing it. I have started learning web development when i was 14 years old. Now i have learned a lot of languages, frameworks like javascript, react, node etc. I still spend a lot of my time learning it to be perfect!</p>
