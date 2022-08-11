@@ -1,0 +1,41 @@
+.ftr-data{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+
+
+.footer-container{
+    margin-top: 8rem;
+}
+
+.ftr-hr{
+    border: none;
+    border-top: 2px solid black;
+    width: 90%;
+    margin-bottom: 3rem;
+}
+
+.rights-res{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 768px) {
+    .rights-res{
+        font-size: 13px;
+    }
+    .ftr-data{
+        margin-bottom: 1.5rem;
+    }
+
+    .ftr-hr{
+        margin-bottom: 1.5rem;
+    }
+
+    .footer-container{
+        margin-top: 3.5rem;
+    }
+
+}

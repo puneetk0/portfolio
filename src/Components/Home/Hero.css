@@ -1,0 +1,175 @@
+.hero-header {
+    margin-top: 6.5%;
+  }
+  
+  .hero-hello h1 {
+    font-size: 9.5rem;
+    font-weight: 700;
+    color: #343434;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .hero-hello p {
+    font-size: 1.4rem;
+    color: #343434;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .hero-intro {
+    max-width: 80%;
+    margin: 10% auto auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .intro-text {
+    width: 37%;
+  }
+  
+  .intro-text p {
+    font-size: 25px;
+    font-family: "Nunito Sans", sans-serif;
+    line-height: 128%;
+    letter-spacing: 0.025em;
+  }
+  
+  .intro-text p a {
+    color: #343434;
+  }
+  
+  .intro-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .links-intro h2 {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 27px;
+  }
+  
+  .all-links i {
+    color: #343434;
+    font-size: 32px;
+    cursor: pointer;
+  }
+  
+  .all-links a {
+    display: inline-block;
+    margin: 1.5rem 1.9rem;
+  }
+  
+  .all-links i:hover{
+      color: #000;
+      font-size: 34px;
+      transition: .2s;
+  }
+
+  .margin-hero{
+      margin-bottom: 7.5rem;
+  }
+
+
+  @media screen and (max-width: 1180px) {
+    .hero-hello h1 {
+      font-size: 8rem;
+    }
+
+    .hero-hello p {
+      font-size: 1.2rem;
+    }
+
+    .intro-text p {
+      font-size: 20px;
+    }
+
+    .links-intro h2 {
+      font-size: 22px;
+    }
+    
+    .all-links i {
+      font-size: 25px;
+    }
+    
+    .all-links a {
+      margin: 1.5rem 1.3rem;
+    }
+
+    .intro-text {
+      width: 42%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+
+    .hero-header{
+      margin-top: 3.5rem;
+    }
+    .hero-hello h1 {
+      font-size: 6rem;
+    }
+
+    .hero-hello p {
+      font-size: 1rem;
+    }
+
+    .intro-text p {
+      font-size: 15px;
+    }
+
+    .links-intro h2 {
+      font-size: 18px;
+    }
+    
+    .all-links i {
+      font-size: 20px;
+    }
+    
+    .all-links a {
+      margin: 1.2rem 1.1rem;
+    }
+  }
+
+  @media screen and (max-width: 489px) {
+    .hero-hello h1 {
+      font-size: 3.8rem;
+    }
+
+    .hero-hello p {
+      font-size: .7rem;
+    }
+
+    .intro-text p {
+      font-size: 12px;
+    }
+
+    .links-intro h2 {
+      font-size: 18px;
+      margin-top: 3.5rem;
+    }
+    
+    .all-links i {
+      font-size: 20px;
+    }
+    
+    .all-links a {
+      margin: 1.2rem 1.1rem;
+    }
+    .intro-text {
+      margin-top: 2.4rem;
+      width: 80%;
+    }
+
+    .hero-intro {
+      max-width: 80%;
+      margin: 10% auto auto;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    
+  }

@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  border-bottom: 1px solid black;
+}
+
+.header-container {
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  height: 7rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 85px;
+  width: 85px;
+}
+
+.links a {
+  margin-left: 3rem;
+  font-size: 20px;
+  text-decoration: none;
+  color: #343434;
+  font-family: 'Roboto', sans-serif;
+}
+
+.links a:hover{
+    color: #343434;
+    font-weight: 600;
+}
+
+.logo-name{
+  color: #343434;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.06em;
+}
+
+.toggle{
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .toggle{
+    display: block;
+    background: none;
+    border: none;
+    font-size: 30px;
+    position: relative;
+    color: #343434;
+    cursor: pointer;
+  }
+
+  .mobile-nav{
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .fa-times{
+    color: white;
+  }
+
+  .mobile-nav a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+  }
+
+  .links{
+    display: none;
+  }
+
+  .logo img {
+    height: 65px;
+    width: 65px;
+  }
+
+  .logo-name{
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .logo-name{
+    font-size: 12px;
+  }
+
+  .logo img {
+    height: 60px;
+    width: 60px;
+  }
+
+  .toggle{
+    font-size: 25px;
+  }
+
+  .header-container{
+    height: 6rem;
+  }
+}

@@ -1,0 +1,194 @@
+.project-container {
+    max-width: 80%;
+    margin: auto;
+  }
+
+.project-link {
+    color: #343434;
+    font-style: "Roboto", sans-serif;
+    font-weight: 300;
+    letter-spacing: 1.33px;
+  }
+
+  .project-boxes {
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .project-box {
+    height: 21rem;
+    width: 21rem;
+    border: 2px solid #343434;
+    border-radius: 28px;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+  }
+
+  .project-box img{
+    width: 225px;
+    height: 126px;
+    max-width: 80%;
+    margin: auto;
+    border: 2px solid #343434;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+
+  .project-box h1{
+    max-width: 80%;
+    font-size: 25px;
+    margin-left: 13%;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .project-box p{
+    max-width: 75%;
+    margin: 1.1rem auto auto;
+    font-family: "Nunito Sans", sans-serif;
+  }
+  
+
+  .project-button{
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+    text-decoration: none;
+}
+
+.project-button button{
+    width: 11.3rem;
+    height: 3.6rem;
+    background-color: #fff;
+    border: 1px solid #343434;
+    border-radius: 28px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.project-button h3{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.project-button button:hover{
+    border-radius: 12px;
+}
+
+@media screen and (max-width: 1400px) {
+  .project-boxes {
+    max-width: 90%;
+    margin: auto;
+    justify-content: center;
+    margin-top: 8rem;
+  }
+
+}
+
+@media screen and (max-width: 1017px) {
+  .project-box{
+    width: 29rem;
+    height: 25rem;
+    margin-right: 0px;
+  }
+
+  .project-box img{
+    width: 300px;
+    height: 168.24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .project-box{
+    width: 21rem;
+    height: 21rem;
+  }
+
+  .project-box img{
+    width: 225px;
+    height: 126px;
+  }
+
+  .project-button button{
+    width: 8.3rem;
+    height: 2.6rem;
+    background-color: #fff;
+    border: 1px solid #343434;
+    border-radius: 28px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.project-button h3{
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.project-button{
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  text-decoration: none;
+}
+}
+
+@media screen and (max-width: 520px) {
+  .project-box{
+    width: 17rem;
+    height: 17rem;
+  }
+
+  .project-box img{
+    width: 180px;
+    height: 100.8px;
+    max-width: 80%;
+    margin: auto;
+    border: 1px solid #343434;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+
+  .project-box h1{
+    font-size: 22px;
+    margin-top: .7rem;
+  }
+
+  .project-box p{
+    margin: 1.1rem auto auto;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .project-box{
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .project-box img{
+    width: 150px;
+    height: 84px;
+    max-width: 80%;
+    margin: auto;
+    border: 1px solid #343434;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 1rem;
+  }
+
+  .project-box h1{
+    font-size: 20px;
+  }
+
+  .project-box p{
+    margin: .6rem auto auto;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 11px;
+  }
+
+  
+}

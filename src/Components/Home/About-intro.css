@@ -1,0 +1,227 @@
+.about-container {
+  max-width: 80%;
+  margin: auto;
+}
+
+.about-link {
+  color: #343434;
+  font-style: "Roboto", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1.33px;
+}
+
+.about-boxes {
+  margin-top: 7rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.about-box {
+  height: 22rem;
+  width: 35rem;
+  border: 2px solid #343434;
+  border-radius: 28px;
+}
+
+.about-heading {
+  max-width: 80%;
+  margin: 2.8rem auto auto;
+}
+
+.about-heading h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  color: #343434;
+}
+
+.about-paragraph {
+  max-width: 80%;
+  margin: 1.8rem auto auto;
+}
+
+.about-paragraph p {
+  font-family: "Nunito Sans", sans-serif;
+  line-height: 158%;
+  letter-spacing: 0.065em;
+  font-size: 18px;
+}
+
+.about-button{
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+}
+
+.about-button button{
+    width: 11rem;
+    height: 3.5rem;
+    background-color: #fff;
+    border: 1px solid #343434;
+    border-radius: 28px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.aboutButton{
+    text-decoration: none;
+}
+
+.about-button h3{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.aboutButton button:hover{
+    border-radius: 12px;
+}
+
+
+@media screen and (max-width: 1450px) {
+  .about-box {
+    height: 18rem;
+    width: 28.64rem;
+  }
+
+  .about-heading h1 {
+    font-size: 35px;
+  }
+
+  .about-paragraph p {
+    font-size: 14px;
+  }
+
+  .about-paragraph {
+    max-width: 80%;
+    margin: 1.4rem auto auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-box {
+    height: 15.3rem;
+    width: 25.9rem;
+  }
+
+  .about-heading h1 {
+    font-size: 33px;
+  }
+
+  .about-paragraph p {
+    font-size: 13px;
+  }
+
+  .about-paragraph {
+    max-width: 80%;
+    margin: 1rem auto auto;
+  }
+
+  .about-boxes {
+    justify-content: center;
+  }
+
+  .about-heading {
+    margin: 2.3rem auto auto;
+  }
+
+  .about-box{
+    margin-bottom: 4rem;
+  }
+
+  .about-link{
+    font-size: 20px;
+  }
+
+  .about-button{
+    margin-top: 0.4rem;
+    margin-bottom: 2rem;
+}
+}
+
+@media screen and (max-width: 1197px) {
+  .about-box{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .about-boxes{
+    justify-content: center;
+  }
+
+  .about-box {
+    height: 17.5rem;
+    width: 30rem;
+  }
+
+  .about-heading h1 {
+    font-size: 32px;
+  }
+
+  .about-paragraph p {
+    font-size: 14.5px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about-box {
+    height: 14rem;
+    width: 25.2rem;
+  }
+
+  .about-heading h1 {
+    font-size: 24px;
+  }
+
+  .about-paragraph p {
+    font-size: 11px;
+  }
+
+  .about-paragraph {
+    max-width: 81%;
+    margin: 0.8rem auto auto;
+  }
+
+  .about-button button{
+    width: 8.3rem;
+    height: 2.6rem;
+    background-color: #fff;
+    border: 1px solid #343434;
+    border-radius: 28px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.about-button h3{
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.about-link{
+  font-size: 17px;
+}
+
+.about-boxes{
+  margin-top: 4rem;
+}
+
+.about-heading {
+  margin: 1.8rem auto auto;
+}
+}
+
+@media screen and (max-width: 385px) {
+  .about-box {
+    height: 12rem;
+    width: 21rem;
+  }
+
+  .about-heading h1 {
+    font-size: 22px;
+  }
+
+  .about-paragraph p {
+    font-size: 10px;
+  }
+}

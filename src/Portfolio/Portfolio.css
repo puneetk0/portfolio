@@ -1,0 +1,30 @@
+.portfolio-container h1 {
+    font-size: 9.5rem;
+    font-weight: 700;
+    color: #343434;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: underline;
+  }
+
+  .portfolio-container{
+      margin-top: 5rem;
+      overflow: hidden;
+  }
+
+  @media screen and (max-width: 1180px) {
+    .portfolio-container h1 {
+      font-size: 8rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .portfolio-container h1 {
+      font-size: 6rem;
+    }
+}
+
+@media screen and (max-width: 489px) {
+    .portfolio-container h1 {
+      font-size: 3.8rem;
+    }
+}
